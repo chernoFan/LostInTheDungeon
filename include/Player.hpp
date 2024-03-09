@@ -25,6 +25,8 @@ public:
   void set_player_money(int money) { this->m_money = money; }
   int get_player_money() { return this->m_money; }
 
+  void add_level(int level) { this->m_level += level; }
+
 };
 
 #endif
